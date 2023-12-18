@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<title>CSS Website Layout</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+h1,h3,img{
+font-family:Cambria Math;letter-spacing:3px;animation: fadeInAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+p,button,.topnav,.header,.footer,ul{
+animation: fadeInAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+ font-size:18px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+.button4:hover {
+background-color: #f1f1f1;
+font-weight:Bold;
+}
+.title{
+animation: fadeInAnimation ease 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+color:white;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  font-family:Verdana;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.body{
+  padding: 20px;
+  height:900px;
+  background-size:1520px 1100px;
+  background-repeat:no-repeat;
+  position:justify;
+  animation: fadeInAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button4 {
+  background-color: transparent;
+font-weight:Bold;
+color:white;
+  border: 2px solid #e7e7e7;
+}
+.button4:hover {
+background-color:white;
+color:black;
+}
+.name{
+text-shadow: 2px 2px 5px Gray;
+font-family:Trebuchet MS;
+font-weight:bold;
+}
+img{
+height:620px;width:487px;object-fit:cover;
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:#333;
+  color:white;
+  text-align:center;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.blogcc{
+font-weight:bold;
+color:black;
+}
+.newu{
+background-image:url("birla.jpg");
+height:430px;
+}
+a{
+color:red;
+}
+.share{
+margin:10px;
+}
+.defineMe{
+   height:1500px;
+}
+.student,.explorer,.ttPlayer{
+height:500px;margin:20px;
+}
+.stu{
+float:left;height:500px;padding:60px;
+}
+.education{
+padding:60px;
+}
+.student:hover{
+box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-image:url('');
+background-attachment: fixed;background-repeat: no-repeat;background-size:cover;
+}
+.explorer:hover{
+box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-image:url('');
+background-attachment: fixed;background-repeat: no-repeat;background-size:cover;
+}
+.ttPlayer:hover{
+box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-image: url('');
+background-attachment: fixed;background-repeat: no-repeat;background-size:cover;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="title">JS  Personal  Website</h1>
+</div>
+<div class="topnav">
+<center>
+  <a href="homepage_ppl.html">About</a>
+  <a href="Blogs_pp.html">Blogs</a>
+  <a href="Works_pp.html">Works</a>
+  <a href="Photography_pp.html">Photographies</a>
+  <a href="Contact_pp.html">Contact</a>
+</center>
+</div>
+<div class="body" style="font-family:Verdana;">
+<center><h1 class="name">Jaya Surya</h1><h3>Student | Explorer | Editor</h3></center>
+<br><br><img src="birla.jpg">  <img src="SCHOOL.JPG"> <img src="LOYOLA.JPG"></div>
+<div class="defineMe">
+<div class="student">
+<img src="" class="stu">
+    <p class="education">Secondary Education and Senior Secondary Education: <br><br>
+        <b style="font-size:32px;">Velammal Matriculation Higher Secondary School,Chennai <br>(2007-2021)</b><br><br></br>Undergraduate:
+    <br><br><b style="font-size:32px;"> Loyola College Chennai (2021-2024)</b></p>
+</div>
+<div class="explorer">
+<img src="IMG-20211214-WA0014.jpg" class="stu" style="float:right;">
+    <p class="education">Visits:-
+    <ul style="padding-left:60px;font-weight:bold;font-size:28px;"><li>Birla Museum,pilani</li><li>
+    Pondicherry</li><li>Valparai</li><li>Kochin,alapey -kerala</li></ul></p>
+</div>
+<div class="ttPlayer">
+<img src="LOYOLA.JPG" class="stu">
+    <p class="education">Achievements<br><br><ul><li>first prize in quiz completition</li>
+    <b><li>Second Prize In Paper Presentation </li>
+<li>First Prize In Code A Thon Event</li>
+    </ul></b></p>
+</div>
+</div>
+<br><br><br>
+<div class="newu">
+<p><div class="blogcc"><p>Are you aware that you're manipulated on social media? Are you feeling insecure and anxious? Do you know you're not being yourself? Do you think you're not good enough? My dear, it's time to wake up.<br><br>The following blog "The 4 Billion Unconscious Imposters - Who are they?" published by me will take you through all the social media sterotypes and will make you realize the illusion you were living in so far. Click the box below to read the entire article.</p></div>
+<center><button onclick="location.href='https://w3schools.com'" class="button button4">Click here to read</button></center></div>
+<hr>
+<div class="share">
+<p>Want to share your work online? But don't know where to start with. Don't worry. Be it a blog, video, promotional stuff, invitation, etc I've got you. You can now publish your work in the first page of this website for free. The process:<br><ul><li>You've to send an email to <a href="mailto: suryadevan321@gmail.com">suryadevan321@gmail.com</a></li><li>Attach your work</li><li>If your work is approved, you'll receive an email stating the days your work will be on my website.</li><li>Note that your work will be on my website for atleast 7 days and atmost 10 days</li><li>Example of works: Photography, blog, videos, completition invitations, educational sites, etc</li></ul></p>
+<center><p>I'm waiting to hear from you soon:</p></center>
+</div>
+<br>
+<div class="footer-basic">
+Connect with me<br><br>
+<footer>
+            <div class="social"><a href=""><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/varun04_03?t=c-th8SUPA7xow8Foe70n7g&s=09"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="Intropage_pp.html">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="About_pp.html">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright"></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
